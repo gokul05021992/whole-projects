@@ -1,0 +1,2 @@
+print('a')
+m=str

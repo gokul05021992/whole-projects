@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="log-form">
+  <h2>Login to your account</h2>
+  <form method="POST">
+      {% csrf_token %}
+    <input type="text" title="username" name="username" placeholder="username" /><br>
+    <input type="password" name="password" title="username" placeholder="password" />
+    <button type="submit" class="btn">Login</button>
+    <a class="forgot" href="#">Forgot Username?</a>
+  </form>
+</div><!--end log form -->
+
+</body>
+</html>
